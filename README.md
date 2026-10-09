@@ -1,12 +1,12 @@
 # Particle System Context Previewer
 
-Preview eligible Particle Systems across the current Scene or Prefab Stage directly in Edit Mode, without entering Play Mode or running runtime scripts.
+Particle System Context Previewer lets Unity developers preview and control eligible Particle Systems together in Edit Mode. It makes it easier to inspect effects across loaded scenes or the current Prefab Stage without entering Play Mode or locating every system individually.
 
 The current context is the active Prefab Stage when one is open; otherwise it is all currently loaded scenes.
 
 ![Particle System Context Previewer demo](Media/particle-system-context-previewer-demo.gif)
 
-## Features
+## Key Features
 
 - Context-wide Particle System preview in Edit Mode.
 - Prefab Stage support.
@@ -102,7 +102,7 @@ During preview, the tool temporarily enables the Scene View FX and particle visi
 
 The previously captured Scene View settings are restored best-effort when preview ends.
 
-## Notes / Limitations
+## Limitations
 
 - Edit Mode preview only.
 - Runtime scripts are not executed by the previewer.
@@ -113,10 +113,26 @@ The previously captured Scene View settings are restored best-effort when previe
 - Scene View FX and particle visibility settings are restored best-effort.
 - Pause depends on the eligible systems remaining visibly selected.
 
-## Tested With
+## Compatibility
 
-Tested with Unity 6000.3.15f1.
+Tested with Unity `6000.3.15f1`.
+
+## 7 Tools in 7 Days — Day 4
+
+This tool is part of the **7 Tools in 7 Days** series.
+
+[Read the Day 4 development story on Substack](https://ecesefercioglu.substack.com/p/7-tools-in-7-days-day-4-particle)
+
+| Day | Tool |
+| --- | --- |
+| Day 1 | [Parent From Bounds](https://github.com/seferciogluecce/parent-from-bounds) |
+| Day 2 | [Separate Mesh Bodies](https://github.com/seferciogluecce/separate-mesh-bodies) |
+| Day 3 | [Brick Wall Generator](https://github.com/seferciogluecce/brick-wall-generator) |
+| **Day 4** | **[Particle System Context Previewer](https://github.com/seferciogluecce/particle-system-context-previewer)** |
+| Day 5 | [Object Layout Tool](https://github.com/seferciogluecce/object-layout-tool) |
+| Day 6 | [DOTween Selection Animation Previewer](https://github.com/seferciogluecce/dotween-selection-animation-previewer) |
+| Day 7 | [Wave Object Distributor](https://github.com/seferciogluecce/wave-object-distributor) |
 
 ## License
 
-MIT License. See `LICENSE`.
+This project is available under the MIT License. See [LICENSE](LICENSE).
